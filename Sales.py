@@ -4,10 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import matplotlib.dates as mdates
-import warnings
 
-# Ignore all warnings
-warnings.filterwarnings("ignore")
 
 # Set the deprecation option to False to ignore the warning
 st.set_option('deprecation.showPyplotGlobalUse', False)
